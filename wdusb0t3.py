@@ -66,27 +66,27 @@ def run_bot(r, comments_replied_to, comment_count):
 
 
 
-                        #if "fuck" in comment.body.lower() and len(comment.body) < 100 and comment.id not in comments_replied_to and comment.author != r.user.me():
-                               # print("String with \"fuck\" found in comment " + comment.id)
-                               # comment.reply("> " + comment.body.lower().replace("fuck", "heck").replace("shit", "heck").replace("\n", "\n> ") + "\n\n\nFTFY")
-                               # print("Replied to comment " + comment.id)
+                        if "nigger" in comment.body.lower() and len(comment.body) < 100 and comment.id not in comments_replied_to and comment.author != r.user.me():
+                                print("String with \"nigger\" found in comment " + comment.id)
+                                comment.reply("> " + comment.body.lower().replace("nigger", "homie").replace("nigga", "homie").replace("\n", "\n> ") + "\n\n\nFTFY")
+                                print("Replied to comment " + comment.id)
                                 
-                               # comments_replied_to.append(comment.id)
+                                comments_replied_to.append(comment.id)
 
 
-                               # with open ("comments_replied_to.txt", "a") as f:
-                               #         f.write(comment.id + "\n")
+                                with open ("comments_replied_to.txt", "a") as f:
+                                        f.write(comment.id + "\n")
 
-                        #if "shit" in comment.body.lower() and len(comment.body) < 100 and comment.id not in comments_replied_to and comment.author != r.user.me():
-                               # print("String with \"shit\" found in comment " + comment.id)
-                              #  comment.reply("> " + comment.body.lower().replace("fuck", "heck").replace("shit", "heck").replace("\n", "\n> ") + "\n\n\nFTFY")
-                              #  print("Replied to comment " + comment.id)
+                        if "nigga" in comment.body.lower() and len(comment.body) < 100 and comment.id not in comments_replied_to and comment.author != r.user.me():
+                                print("String with \"nigga\" found in comment " + comment.id)
+                                comment.reply("> " + comment.body.lower().replace("nigger", "homie").replace("nigga", "homie").replace("\n", "\n> ") + "\n\n\nFTFY")
+                                print("Replied to comment " + comment.id)
                                 
-                               # comments_replied_to.append(comment.id)
+                                comments_replied_to.append(comment.id)
 
 
-                              #  with open ("comments_replied_to.txt", "a") as f:
-                               #         f.write(comment.id + "\n")
+                                with open ("comments_replied_to.txt", "a") as f:
+                                        f.write(comment.id + "\n")
 
                         if "f" == comment.body.lower() and comment.id not in comments_replied_to and comment.author != r.user.me():
                                 print("String with \"F\" found in comment " + comment.id)
